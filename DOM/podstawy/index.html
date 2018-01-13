@@ -4,17 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Budujemy DOM</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <section id="sectionFirst">
+             
         <header>
             <p>paragraf</p>
             <h1 id="main-header">Header</h1>
         </header>
 
         <div id="parFirst">
-            <p>Tekst w tym akapicie</p>
+            <p oncopy="alert('Event Click z pragrafu')">Tekst w tym akapicie</p> gdy uzytkownik chce skopiowac
             <a href="http://akademia108.pl" class="link">Akapit link 1</a>
             <div></div>
             <a href="http://akademia108.pl" class="link">Akapit link 2</a>
@@ -27,10 +29,16 @@
         <a href="#" class="superLink">Link 3</a>
         <a href="#" class="superLink">Link 4</a>
     </section>
+    
+    <div id="exampleDiv">
+    <a href="" id="exampleLink">Example Link</a>
+    </div>
+    
 <!--    <script src="js/1_znajdowanie-elementow.js"></script>-->
 <!--    <script src="js/2_relacje-miedzy-wezlami.js"></script>-->
 <!--    <script src="js/3_tworzenie-wezlow.js"></script>-->
-        <script src="js/4_manipulacja-dom-html.js"></script>
+<!--    <script src="js/4_manipulacja-dom-html.js"></script>-->
+        <script src="js/5_zdarzenia-events.js"></script>
 </body>
 
 </html>
