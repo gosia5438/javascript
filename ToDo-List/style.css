@@ -1,9 +1,9 @@
 body {
-    background: #352f5b;
+    background: #054632;
 }
 
 .container {
-    max-width: 400px;
+    max-width: 500px;
 }
 
 input[type=text],
@@ -11,13 +11,17 @@ input[type=text]:focus {
     color: #fff;
     border: none;
     background: rgba(0, 0, 0, 0.2);
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .todos li {
-    background: #423a6f;
+    background: #126654;
 }
 
 .delete {
     cursor: pointer;
+}
+
+.filtered {
+    display: none !important;
 }
